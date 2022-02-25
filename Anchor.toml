@@ -1,0 +1,15 @@
+[features]
+seeds = false
+
+[programs.devnet]
+mymoneydapp = "C7KDK3DTE4D8Z7UKTGQiba1Lu3C6ccJeqbc7Zui2VJSV"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/sohom/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.js"
